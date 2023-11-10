@@ -1,7 +1,7 @@
 CREATE TABLE tent (
-tentId        INT IDENTITY(1, 1),
-[location]    VARCHAR(128),
-ssid          VARCHAR(128),
+tentId      INT IDENTITY(1, 1),
+[location]  VARCHAR(128),
+ssid        VARCHAR(128),
 )
 
 CREATE TABLE sensor_readings (
